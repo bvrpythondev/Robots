@@ -37,8 +37,8 @@ import feedparser
 
 natural_language_understanding = NaturalLanguageUnderstandingV1(
     version='2018-11-16',
-    iam_apikey='OIjKPBv1Cs8FajYDS10QUqhMKldef8stxrI4lfeHp86g',
-    url='https://gateway.watsonplatform.net/natural-language-understanding/api'
+    iam_apikey='YOUR-APYKEY',
+    url='URL-KEY'
 )
 
 content = {}

@@ -24,5 +24,3 @@ class VideoRobot():
     def add_music(self):
         os.system("ffmpeg -y -i {0}/output_text.mp4 -i music.ogg -c copy -map 0:v:0 -map 1:a:0 {0}/final_video.mp4".format(self.images_directory))
 
-
-    c = VideoRobot.make_video()
